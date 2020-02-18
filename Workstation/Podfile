@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'finch-station-routes-ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for finch-station-routes-ios
+  pod 'LBTATools', '~> 1.0.12'
+  pod 'Alamofire', '~> 4.9.0'
+  pod 'SDWebImage', '~> 5.2.3'
+  pod 'JGProgressHUD', '~> 2.1'
+
+end

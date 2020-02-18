@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A6E975A23FBECEE002A5E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E975923FBECEE002A5E82 /* AppDelegate.swift */; };
+		5A6E975C23FBECEE002A5E82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E975B23FBECEE002A5E82 /* SceneDelegate.swift */; };
+		5A6E975E23FBECEE002A5E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E975D23FBECEE002A5E82 /* ViewController.swift */; };
+		5A6E976323FBECF0002A5E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E976223FBECF0002A5E82 /* Assets.xcassets */; };
+		5A6E976623FBECF0002A5E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E976423FBECF0002A5E82 /* LaunchScreen.storyboard */; };
+		B60143FEF6E16905E0E6EFE1 /* Pods_finch_station_routes_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D4AC31DF333B3915FD27C0 /* Pods_finch_station_routes_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38D4AC31DF333B3915FD27C0 /* Pods_finch_station_routes_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finch_station_routes_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442CF69B9C362AF3B54ACAAC /* Pods-finch-station-routes-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finch-station-routes-ios.release.xcconfig"; path = "Target Support Files/Pods-finch-station-routes-ios/Pods-finch-station-routes-ios.release.xcconfig"; sourceTree = "<group>"; };
+		5A6E975623FBECEE002A5E82 /* finch-station-routes-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "finch-station-routes-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6E975923FBECEE002A5E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A6E975B23FBECEE002A5E82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A6E975D23FBECEE002A5E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A6E976223FBECF0002A5E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A6E976523FBECF0002A5E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A6E976723FBECF0002A5E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D09049DB9365DB0364CA624 /* Pods-finch-station-routes-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finch-station-routes-ios.debug.xcconfig"; path = "Target Support Files/Pods-finch-station-routes-ios/Pods-finch-station-routes-ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A6E975323FBECEE002A5E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60143FEF6E16905E0E6EFE1 /* Pods_finch_station_routes_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB7632B8753B8E12DB02ECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D09049DB9365DB0364CA624 /* Pods-finch-station-routes-ios.debug.xcconfig */,
+				442CF69B9C362AF3B54ACAAC /* Pods-finch-station-routes-ios.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		59F5BDC7DC43A045C1EFCF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38D4AC31DF333B3915FD27C0 /* Pods_finch_station_routes_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A6E974D23FBECEE002A5E82 = {
+			isa = PBXGroup;
+			children = (
+				5A6E975823FBECEE002A5E82 /* finch-station-routes-ios */,
+				5A6E975723FBECEE002A5E82 /* Products */,
+				2FB7632B8753B8E12DB02ECF /* Pods */,
+				59F5BDC7DC43A045C1EFCF1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6E975723FBECEE002A5E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E975623FBECEE002A5E82 /* finch-station-routes-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6E975823FBECEE002A5E82 /* finch-station-routes-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E975923FBECEE002A5E82 /* AppDelegate.swift */,
+				5A6E975B23FBECEE002A5E82 /* SceneDelegate.swift */,
+				5A6E975D23FBECEE002A5E82 /* ViewController.swift */,
+				5A6E976223FBECF0002A5E82 /* Assets.xcassets */,
+				5A6E976423FBECF0002A5E82 /* LaunchScreen.storyboard */,
+				5A6E976723FBECF0002A5E82 /* Info.plist */,
+			);
+			path = "finch-station-routes-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6E975523FBECEE002A5E82 /* finch-station-routes-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6E976A23FBECF0002A5E82 /* Build configuration list for PBXNativeTarget "finch-station-routes-ios" */;
+			buildPhases = (
+				4D9BD06F0D546C1DC225AAB4 /* [CP] Check Pods Manifest.lock */,
+				5A6E975223FBECEE002A5E82 /* Sources */,
+				5A6E975323FBECEE002A5E82 /* Frameworks */,
+				5A6E975423FBECEE002A5E82 /* Resources */,
+				4443C97F0CAD04A4445CBE60 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "finch-station-routes-ios";
+			productName = "finch-station-routes-ios";
+			productReference = 5A6E975623FBECEE002A5E82 /* finch-station-routes-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6E974E23FBECEE002A5E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Joash Tubaga";
+				TargetAttributes = {
+					5A6E975523FBECEE002A5E82 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A6E975123FBECEE002A5E82 /* Build configuration list for PBXProject "finch-station-routes-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A6E974D23FBECEE002A5E82;
+			productRefGroup = 5A6E975723FBECEE002A5E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6E975523FBECEE002A5E82 /* finch-station-routes-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A6E975423FBECEE002A5E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E976623FBECF0002A5E82 /* LaunchScreen.storyboard in Resources */,
+				5A6E976323FBECF0002A5E82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4443C97F0CAD04A4445CBE60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finch-station-routes-ios/Pods-finch-station-routes-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finch-station-routes-ios/Pods-finch-station-routes-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finch-station-routes-ios/Pods-finch-station-routes-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9BD06F0D546C1DC225AAB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finch-station-routes-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6E975223FBECEE002A5E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6E975E23FBECEE002A5E82 /* ViewController.swift in Sources */,
+				5A6E975A23FBECEE002A5E82 /* AppDelegate.swift in Sources */,
+				5A6E975C23FBECEE002A5E82 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A6E976423FBECF0002A5E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A6E976523FBECF0002A5E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A6E976823FBECF0002A5E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A6E976923FBECF0002A5E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6E976B23FBECF0002A5E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D09049DB9365DB0364CA624 /* Pods-finch-station-routes-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV2Y6Z28VV;
+				INFOPLIST_FILE = "finch-station-routes-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.joashtubaga.finch-station-routes-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5A6E976C23FBECF0002A5E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442CF69B9C362AF3B54ACAAC /* Pods-finch-station-routes-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV2Y6Z28VV;
+				INFOPLIST_FILE = "finch-station-routes-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ph.joashtubaga.finch-station-routes-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6E975123FBECEE002A5E82 /* Build configuration list for PBXProject "finch-station-routes-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6E976823FBECF0002A5E82 /* Debug */,
+				5A6E976923FBECF0002A5E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6E976A23FBECF0002A5E82 /* Build configuration list for PBXNativeTarget "finch-station-routes-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6E976B23FBECF0002A5E82 /* Debug */,
+				5A6E976C23FBECF0002A5E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A6E974E23FBECEE002A5E82 /* Project object */;
+}
